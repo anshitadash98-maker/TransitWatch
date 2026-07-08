@@ -84,4 +84,3 @@ Anshita — [anshitadash98-maker](https://github.com/anshitadash98-maker)
 
 ---
 
-*Submitted under SIH 2026, Problem Statement PS25013.*
