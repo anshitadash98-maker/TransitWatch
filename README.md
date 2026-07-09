@@ -61,7 +61,7 @@ npm run preview
 
 ## 🧪 What's simulated vs. real
 
-- **Bus positions** are simulated client-side (`src/hooks/useLiveFleet.js`) — they move along real route geometry every animation frame. This stands in for a live GPS feed; swapping in a real backend later (e.g. Flask-SocketIO) only requires replacing this one hook with a socket listener of the same shape.
+- **Bus positions** are simulated for client-side (`src/hooks/useLiveFleet.js`) — they move along real route geometry every animation frame. This stands in for a live GPS feed; swapping in a real backend later (e.g. Flask-SocketIO) only requires replacing this one hook with a socket listener of the same shape.
 - **Map tiles** are free OpenStreetMap/CARTO — no API key required, works out of the box.
 - **Stats, alerts, and analytics numbers** are realistic seed data for demo purposes.
 
